@@ -158,3 +158,21 @@ PDF Folder/
 ## 📜 License
 
 MIT License
+
+---
+
+## 🔧 Utility Script
+
+`test_ocr.py` — A diagnostic script to preview the OCR output for a single PDF before running the full batch process. Useful for debugging recognition issues or verifying extraction logic on specific files.
+
+```bash
+python test_ocr.py
+```
+
+Update the `PDF_PATH` variable inside the script to point to the file you want to inspect.
+
+---
+
+## 🤝 Acknowledgement
+
+Built with the assistance of [Claude](https://claude.ai) (Anthropic) as an AI pair programmer.
